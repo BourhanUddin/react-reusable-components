@@ -1,11 +1,9 @@
-import Home from "./pages/Home";
+import Mainlayout from "./components/layouts/Mainlayout";
 
 function App() {
   return (
     <>
-      <h1>App page </h1>
-      <Home></Home>
-      <h1>React Reusable components is here</h1>
+      <Mainlayout></Mainlayout>
     </>
   );
 }

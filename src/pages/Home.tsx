@@ -1,7 +1,14 @@
+import Button from "../components/ui/Button";
+
 const Home = () => {
   return (
     <>
-      <h1>this is home page</h1>
+      <div className="text-center my-36">
+        <button className="btn">click </button>
+        <br />
+        <br />
+        <Button className="bg-green-600"></Button>
+      </div>
     </>
   );
 };

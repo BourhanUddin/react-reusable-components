@@ -1,0 +1,14 @@
+@layer components {
+  .btn {
+    @apply px-5 py-4;
+    @apply bg-slate-400 rounded-md;
+  }
+  .btn-primary {
+    @apply px-5 py-4;
+    @apply bg-green-400;
+  }
+  .btn-danger {
+    @apply px-5 py-4;
+    @apply bg-red-400;
+  }
+}
