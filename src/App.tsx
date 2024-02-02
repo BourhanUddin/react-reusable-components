@@ -1,9 +1,9 @@
-import Mainlayout from "./components/layouts/Mainlayout";
+import NormalForm from "./components/NormalForm/NormalForm";
 
 function App() {
   return (
     <>
-      <Mainlayout></Mainlayout>
+      <NormalForm></NormalForm>
     </>
   );
 }
